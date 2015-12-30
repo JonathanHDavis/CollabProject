@@ -1,5 +1,5 @@
 h2 {
-	margin-left: 20px;
+	margin-left: 0px;
 	margin-bottom: 0px;
 	color: #5c0d09;
 	font-family: helvetica;
@@ -7,7 +7,7 @@ h2 {
 
 h4 {
 	margin-top: 0px;
-	margin-left: 20px;
+	margin-left: 0px;
 	color: #d44601;
 	font-family: helvetica;
 }
@@ -67,6 +67,9 @@ a:hover {
 	height: 200px;
 	width: 760px;
 	font-family: verdana;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 
