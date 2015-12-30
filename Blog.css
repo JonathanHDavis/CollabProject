@@ -1,0 +1,86 @@
+h2 {
+	margin-left: 20px;
+	margin-bottom: 0px;
+	color: #5c0d09;
+	font-family: helvetica;
+}
+
+h4 {
+	margin-top: 0px;
+	margin-left: 20px;
+	color: #d44601;
+	font-family: helvetica;
+}
+
+
+nav {
+	margin-top: 0px;
+	font-size: 20px;
+	margin-right: 275px;
+	float: right;
+	color: #d44601;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	text-decoration: none;
+	color: #5c0d09;
+	font-family: helvetica;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #d44601;
+	font-family: helvetica;
+}
+
+/*nav ul li a {
+	float: right;
+	text-decoration: none;
+	color: #d44601;
+	}*/
+a:hover {
+	text-decoration: none;
+	color: #177263;
+}
+
+#header {
+	height: 100px;
+	width: 960px;
+	background-color: #52c0a7;
+	box-sizing: border box;
+}
+
+#footer {
+	clear: both;
+	height: 65px;
+	width: 960px;
+	background-color: #52c0a7;
+	box-sizing: border box;
+}
+
+.BlogContent {
+	margin-left: 20px;
+	height: 200px;
+	width: 760px;
+	font-family: verdana;
+}
+
+
+#diagram {
+	margin-right: 25px;
+	float: left;
+	height: 150px;
+	width: 250px;
+}
+
+#SeaBin {
+	margin-left: 20px;
+	float: right;
+	height: 150px;
+	width: 250px;
+}
+
