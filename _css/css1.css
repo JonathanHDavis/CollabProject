@@ -190,7 +190,7 @@ h3	{
 .ContactContent {
 	min-height: 300px;
 	background-color: white;
-	padding: 200px 30px 30px 30px;
+	padding: 30px 30px 200px 30px;
 	background-image: url("../_images/bg-content.jpg");
 }
 
@@ -241,6 +241,7 @@ h3	{
 #BlogSub {
 	margin-top: 0px;
 	margin-left: 0px;
+	margin-bottom: 25px;
 	color: #d44601;
 	font-family: helvetica;
 	font-size: 25px;
@@ -250,7 +251,7 @@ h3	{
 .BlogContent {
 	min-height: 300px;
 	background-color: white;
-	padding: 200px 30px 30px 30px;
+	padding: 30px 30px 30px 30px;
 	background-image: url("../_images/bg-content.jpg");
 }
 
@@ -272,6 +273,7 @@ h3	{
 	font-size: 20px;
 	float: right;
 	color: #d44601;
+	margin-left: 10px;
 }
 
 .BlogNav ul {
