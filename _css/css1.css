@@ -169,7 +169,28 @@ h3	{
 }
 
 
+#ContentHeader {
+	text-align: left;
+	font-family: "Helvetica", "sans-serif";
+	font-size: 42px;
+	font-weight: bold;
+	color: #5c0d09;
+}
 
+#ContentSub {
+	text-align: left;
+	font-family: "Helvetica", "sans-serif";
+	font-size: 21px;
+	font-weight: bold;
+	color: #d44601;
+}
+
+.ContactContent {
+	min-height: 300px;
+	background-color: white;
+	padding: 200px 30px 30px 30px;
+	background-image: url("../_images/bg-content.jpg");
+}
 
 
 
