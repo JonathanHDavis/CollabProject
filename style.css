@@ -1,0 +1,242 @@
+
+/*css1*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end reset style*/
+
+body 	{
+	box-sizing: border-box;
+	background-color: #424242;
+	margin-top: 0px;
+}
+
+#container	{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+.header	{
+	width: 960px;
+	height: 100px;
+	background-color: #52c0a7;
+	background-image: url("../_images/waveheader.jpg");
+}
+
+/*Renamed and modified .content - EL*/
+
+.aboutcontent	{
+	/*width: 100%;*/
+	min-height: 400px;
+	background-color: white;
+/*	text-align: left;*/
+	padding: 40px 30px 30px 30px;
+}
+
+.donatebutton	{
+	width: 160px;
+	height: 40px;
+	margin: 20px auto;
+	padding-top: 20px;
+	border-radius: 10px;
+	background-color: #52c0a7;
+	text-align: center;
+}
+
+.donatebutton a {
+	font-family: "Helvetica", "sans-serif";
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+.donatebutton a:hover {
+	color: #d44601;
+	text-decoration: none;
+}
+
+.footer	{
+	width: 960px;
+	height: 65px;
+	color: white;
+	font-family: verdana;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 20px;
+	background-color: #52c0a7;
+	background-image: url("../_images/waveheader.jpg");
+
+}
+
+.hdrimg	{
+	padding-top: 30px;
+	padding-left: 20px;
+	float: left;
+}
+
+
+.navDiv	{
+	color: white;
+	padding-top: 65px;
+	padding-left: 20px;
+	float: left;
+}
+
+li	{
+	display: inline;
+	padding-right: 30px;
+}
+
+	a.navBar	{
+	font-family: "Helvetica", "sans-serfif";
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover.navBar	{
+	color: #d44601;
+	text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1	{
+	font-family: "Helvetica", "sans-serif";
+	font-size: 42px;
+	font-weight: bold;
+	color: #5c0d09;
+}
+
+h3	{
+	font-family: "Helvetica", "sans-serif";
+	font-size: 21px;
+	font-weight: bold;
+	color: #d44601;
+}
+
+
+/*Etienne's CSS*/
+
+
+/*.header {
+	width:960px;
+	height: 100px;
+	background-color: green;
+}
+
+.footer {
+	width:960px;
+	height: 65px;
+	background-color: green;
+	position: absolute;
+	bottom: 0;
+}*/
+
+/*.wrapper {
+	width: 960px;
+	height: 2000px;
+	margin-left: 200px;
+	margin-right: 30px;
+	box-sizing: border-box;
+
+}*/
+
+/*QUESTION: WHY AM I NOT GETTING SAME RESULTS WITH PUTTING THE SAME VALUES INTO THESE CLASSES AS YOU DO WITH THE CONTENT CLASS?*/
+/*.abouthead {
+	padding: 40px 30px 30px 30px;	
+	
+}
+
+.aboutsubhead {
+	padding: 40px 30px 30px 30px;
+	
+}*/
+
+.pic_about {
+	max-width: 250px;
+	max-height:	250px;
+	/*padding: 20px 30px 30px 30px;*/
+	padding-top: 20px;
+
+}
+
+
+.columnleft {
+	width: 250px;
+	height: 100%;
+	background-color: none;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 50px;
+}
+
+.columnright {
+	width:600px;
+	height: 100%
+	background-color: none;
+	box-sizing: border-box;
+	position: top;
+	float: left;
+	padding: 40px 30px 30px 30px;
+	font-family: "verdana";
+	text-align: justify;
+	 display: block;
+}
+
+<!-- test123 -->
