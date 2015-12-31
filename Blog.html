@@ -1,29 +1,52 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+
 	<title>Blog</title>
-	<link rel="stylesheet" type="text/css" href="_css/Blog.css">
+	<link rel="stylesheet" type="text/css" href="_css/css1.css" />
+
 </head>
 
 <body>
+	<div id="container">
 
-<div id="container">
+		<div class="header">
 
-<div id="header"></div>
 
-	<h2>One Idea Closer to Clean Oceans!</h2>
-	<h4>Inventors Create Clean Water Game-Changer</h4>
-<h6>
-<nav>
-	<ul>
+			<div class="hdrimg">
+			<img src="_images/logo101.gif" />
+			</div>	
+
+
+				<div class="navDiv">
+					<ul class="navBar">
+						<li><a class="navBar" href="about.html">ABOUT</a></li>
+						<li><a class="navBar" href="projects.html">PROJECTS</a> </li>
+						<li><a class="navBar" href="blog.html">BLOG</a></li>
+						<li><a class="navBar" href="contact.html">CONTACT</a></li>
+						<li><a class="navBar" href="donate.html">DONATE</a></li>
+					</ul>
+				</div>	
+		</div>
+
+<!-- get rid of navBar, make two divs for the image and the line of navigation -->
+<div class= "BlogContent">
+
+	<p id= "BlogHeader">One Idea Closer to Clean Oceans!</p>
+	<p id= "BlogSub">Inventors Create Clean Water Game-Changer</p>
+
+<div class="BlogNav">
+
+	<ul class= "BlogNav">
+
 		<li>2015<li>
 		<a href="Blog.html" target= "_blank"><li>December</a></li>
 		<a href="Blog.html" target= "_blank"><li>November</a></li>
 		<a href="Blog.html" target= "_blank"><li>October</a></li>
 		<li> 
-			<p></p>
+			<p>   </p>
 		</li>
+
 		<li>TAGS<li>
 		<a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=sea+bin" target= "_blank"><li>Sea Bin</a></li>
 
@@ -32,10 +55,10 @@
 		<a href="https://www.indiegogo.com/projects/cleaning-the-oceans-one-marina-at-a-time#/" target= "_blank"><li>Indiegogo</a></li>
 
 	</ul>
-</nav>
-</h6>
+</div><!--BlogNav-->
 
-<div class="BlogContent">
+<div class="BlogColumns">
+
 	<img id="diagram" src="_images/seabindiagram.jpg">
 
 	<p>
@@ -45,9 +68,10 @@
 		The Seabin can run 24/7, and has never caught a fish or marine animal in their pumps.
 	</p>
 
-</div>
 
-<div class="BlogContent">
+</div><!--BlogColumns-->
+
+<div class= "BlogColumns">
 
 	<img id="SeaBin" src="_images/seabinbucket.jpg">
 
@@ -57,13 +81,26 @@
 		The creators are turning to crowdfunding with Indiegogo to start producing Seabins on a larger scale.
 		"We want to build it in the most sustainable and ecologically responsible way we can," Ceglinski said. "But to do that it's quite expensive, so we thought to give crowd funding a go."
 	</p>
-</div>
+
+</div><!--BlogColumns-->
 
 
-<div id="footer"></div>
 
-</div> <!-- container -->
+</div><!--BlogContent-->
+		<div class="footer">
+			people | places | things
+		</div>
 
-</body>	
 
+
+
+
+	</div> <!-- container -->
+
+
+
+
+
+
+</body>
 </html>
