@@ -301,7 +301,7 @@ h3	{
 
 .content_pr {
 	/*width: 100%;*/
-	min-height: 600px;
+	min-height: 640px;
 	background-color: white;
 	/*text-align: center;*/
 	padding: 30px 30px 30px 30px;
@@ -310,7 +310,7 @@ h3	{
 
 .columnleft_pr {
 	width: 320px;
-	height: 600px;
+	height: 640px;
 	background-color: none;
 	float: left;
 	clear: both;
@@ -318,16 +318,18 @@ h3	{
 }
 
 .columnmid_pr {
-	width: 960px;
-	height: 100%;
-	background-color: grey;
+	width: 320px;
+	height: 640px;
+	background-color: none;
+	float: left;
+
 
 
 }
 
 .columnright_pr {
 	width: 320px;
-	height: 100%;
+	height: 920px;
 	background-color: yellow;
 
 }
@@ -353,7 +355,7 @@ h3	{
 	color: #5c0d09;
 	text-align: center;
 	width: 200px;
-/*	margin-left: 40px;*/
+	margin-left: 35px;
 }
 
 .subtitles_pr {
@@ -361,9 +363,13 @@ h3	{
 	font-size: 12px;
 	font-weight: bold;
 	color: #d44601;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+	margin-right: 5px;
+	margin-top: 1px;
 	/*margin-left: 25px;*/
 }
+
+/*If I align the text center, it jumps straight to the middle. Any idea on how to allign center within a column? */
 
 
 
