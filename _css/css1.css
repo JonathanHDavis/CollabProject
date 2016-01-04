@@ -294,9 +294,75 @@ h3	{
 	font-family: helvetica;
 }
 
-.BlogNav a:hover{
+.BlogNav a:hover {
 	text-decoration: none;
 	color: #177263;
+}
+
+.content_pr {
+	/*width: 100%;*/
+	min-height: 600px;
+	background-color: white;
+	/*text-align: center;*/
+	padding: 30px 30px 30px 30px;
+	background-image: url("../_images/bg-content.jpg");
+}
+
+.columnleft_pr {
+	width: 320px;
+	height: 600px;
+	background-color: none;
+	float: left;
+	clear: both;
+
+}
+
+.columnmid_pr {
+	width: 960px;
+	height: 100%;
+	background-color: grey;
+
+
+}
+
+.columnright_pr {
+	width: 320px;
+	height: 100%;
+	background-color: yellow;
+
+}
+
+.img_gallery_pr {
+	width: 960px;
+	height: 600px;
+	float: left;
+	clear:both;
+}
+
+.images_pr {
+	width: 250px;
+	float: left;
+	clear: both;
+
+}
+
+.titles_pr {
+	font-family: "Helvetica", "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+	color: #5c0d09;
+	text-align: center;
+	width: 200px;
+/*	margin-left: 40px;*/
+}
+
+.subtitles_pr {
+	font-family: "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-weight: bold;
+	color: #d44601;
+	margin-bottom: 30px;
+	/*margin-left: 25px;*/
 }
 
 
