@@ -328,9 +328,10 @@ h3	{
 }
 
 .columnright_pr {
-	width: 320px;
-	height: 920px;
-	background-color: yellow;
+	width: 200px;
+	height: 640px;
+	background-color: none;
+	float: left;
 
 }
 
