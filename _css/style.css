@@ -76,7 +76,7 @@ body 	{
 
 .aboutcontent	{
 	/*width: 100%;*/
-	min-height: 400px;
+	min-height: 600px;
 	background-color: white;
 /*	text-align: left;*/
 	padding: 40px 30px 30px 30px;
@@ -112,6 +112,7 @@ body 	{
 	font-family: verdana;
 	font-size: 12px;
 	text-align: center;
+	clear: both;
 	padding-top: 20px;
 	background-color: #52c0a7;
 	background-image: url("../_images/waveheader.jpg");
@@ -219,8 +220,8 @@ h3	{
 
 .columnleft {
 	width: 250px;
-	height: 100%;
-	background-color: none;
+	/*height: 100%;*/
+	/*background-color: none;*/
 	box-sizing: border-box;
 	float: left;
 	margin-right: 50px;
@@ -228,8 +229,8 @@ h3	{
 
 .columnright {
 	width:600px;
-	height: 100%
-	background-color: none;
+	/*height: 100%*/
+	/*background-color: none;*/
 	box-sizing: border-box;
 	position: top;
 	float: left;
