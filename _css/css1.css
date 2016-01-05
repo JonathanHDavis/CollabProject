@@ -299,6 +299,18 @@ h3	{
 	color: #177263;
 }
 
+/*Projects section*/
+
+.nav_pr a {
+	text-decoration: none;
+	color: #5c0d09;
+}
+
+.nav_pr a:hover {
+	text-decoration: none;
+	color: #177263;
+}
+
 .content_pr {
 	/*width: 100%;*/
 	min-height: 640px;
@@ -328,9 +340,10 @@ h3	{
 }
 
 .columnright_pr {
-	width: 200px;
+	width: 230px;
 	height: 640px;
 	background-color: none;
+	text-align: center;
 	float: left;
 
 }
@@ -367,12 +380,64 @@ h3	{
 	margin-bottom: 20px;
 	margin-right: 5px;
 	margin-top: 1px;
-	/*margin-left: 25px;*/
+	margin-left: 25px;
 }
 
-/*If I align the text center, it jumps straight to the middle. Any idea on how to allign center within a column? */
+
+/*About section*/
+
+.content_ab {
+	min-height: 600px;
+	background-color: white;
+	padding: 30px 30px 30px 30px;
+	background-image: url("../_images/bg-content.jpg");
+}
+
+.pic_ab {
+	max-width: 250px;
+	max-height:	250px;
+	/*padding: 20px 30px 30px 30px;*/
+	padding-top: 25px;
+	margin-top: 10px;
+	border: 1px solid #d44601;
+
+}
 
 
+.columnleft_ab {
+	width: 250px;
+	height: 100%;
+	background-color: none;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 50px;
+}
+
+.columnright_ab {
+	width:600px;
+	height: 100%
+	background-color: none;
+	box-sizing: border-box;
+	position: top;
+	float: left;
+	padding: 40px 30px 30px 30px;
+	font-family: "verdana";
+	text-align: justify;
+	 display: block;
+}
+
+.signature_ab {
+	font-family: "Helvetica", "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+	color: #5c0d09;
+	text-align: right;
+	width: 400px;
+	margin-top: 25px;
+	margin-left: 100px;
+	margin-right: 40px;
+
+}
 
 
 
