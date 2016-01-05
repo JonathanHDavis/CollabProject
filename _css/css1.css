@@ -162,6 +162,131 @@ h3	{
 }
 
 
+#ContentHeader {
+	text-align: left;
+	font-family: "Helvetica", "sans-serif";
+	font-size: 25px;
+	font-weight: bold;
+	color: #5c0d09;
+	margin-bottom: 5px;
+}
+
+#ContentSub {
+	text-align: left;
+	font-family: "Helvetica", "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+	color: #d44601;
+	margin-bottom: 25px;
+}
+
+.ContactContent {
+	min-height: 300px;
+	background-color: white;
+	padding: 30px 30px 200px 30px;
+	background-image: url("../_images/bg-content.jpg");
+}
+
+
+.ContactList li {
+	display: block;
+	margin-bottom: 2px;
+}
+
+.ContactList {
+	text-align: left;
+	font-family: "Helvetica", "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+	color: #d44601;
+}
+
+#Phone {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: left;
+	font-family: "Helvetica", "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+	color: #d44601;
+}
+
+.BlogColumns {
+	margin-left: 20px;
+	height: 200px;
+	width: 760px;
+	font-family: verdana;
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+#BlogHeader {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	color: #5c0d09;
+	font-family: helvetica;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#BlogSub {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 25px;
+	color: #d44601;
+	font-family: helvetica;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.BlogContent {
+	min-height: 300px;
+	background-color: white;
+	padding: 30px 30px 30px 30px;
+	background-image: url("../_images/bg-content.jpg");
+}
+
+#diagram {
+	margin-right: 25px;
+	float: left;
+	height: 150px;
+	width: 250px;
+}
+
+#SeaBin {
+	margin-left: 20px;
+	float: right;
+	height: 150px;
+	width: 250px;
+}
+
+.BlogNav {
+	font-size: 20px;
+	float: right;
+	color: #d44601;
+	margin-left: 10px;
+}
+
+.BlogNav ul {
+	list-style: none;
+}
+
+.BlogNav ul li {
+	font-weight: bold;
+	text-decoration: none;
+	color: #5c0d09;
+	font-family: helvetica;
+	display: block;
+}
+
+.BlogNav ul li a {
+	text-decoration: none;
+	color: #d44601;
+	font-family: helvetica;
+}
+
 
 .footer	{
 	width: 960px;
@@ -176,7 +301,150 @@ h3	{
 }
 
 
+.BlogNav a:hover {
+	text-decoration: none;
+	color: #177263;
+}
 
+/*Projects section*/
+
+.nav_pr a {
+	text-decoration: none;
+	color: #5c0d09;
+}
+
+.nav_pr a:hover {
+	text-decoration: none;
+	color: #177263;
+}
+
+.content_pr {
+	/*width: 100%;*/
+	min-height: 640px;
+	background-color: white;
+	/*text-align: center;*/
+	padding: 30px 30px 30px 30px;
+	background-image: url("../_images/bg-content.jpg");
+}
+
+.columnleft_pr {
+	width: 320px;
+	height: 640px;
+	background-color: none;
+	float: left;
+	clear: both;
+
+}
+
+.columnmid_pr {
+	width: 320px;
+	height: 640px;
+	background-color: none;
+	float: left;
+
+
+
+}
+
+.columnright_pr {
+	width: 230px;
+	height: 640px;
+	background-color: none;
+	text-align: center;
+	float: left;
+
+}
+
+.img_gallery_pr {
+	width: 960px;
+	height: 600px;
+	float: left;
+	clear:both;
+}
+
+.images_pr {
+	width: 250px;
+	float: left;
+	clear: both;
+
+}
+
+.titles_pr {
+	font-family: "Helvetica", "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+	color: #5c0d09;
+	text-align: center;
+	width: 200px;
+	margin-left: 35px;
+}
+
+.subtitles_pr {
+	font-family: "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-weight: bold;
+	color: #d44601;
+	margin-bottom: 20px;
+	margin-right: 5px;
+	margin-top: 1px;
+	margin-left: 25px;
+}
+
+
+/*About section*/
+
+.content_ab {
+	min-height: 600px;
+	background-color: white;
+	padding: 30px 30px 30px 30px;
+	background-image: url("../_images/bg-content.jpg");
+}
+
+.pic_ab {
+	max-width: 250px;
+	max-height:	250px;
+	/*padding: 20px 30px 30px 30px;*/
+	padding-top: 25px;
+	margin-top: 10px;
+	border: 1px solid #d44601;
+
+}
+
+
+.columnleft_ab {
+	width: 250px;
+	height: 100%;
+	background-color: none;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 50px;
+}
+
+.columnright_ab {
+	width:600px;
+	height: 100%
+	background-color: none;
+	box-sizing: border-box;
+	position: top;
+	float: left;
+	padding: 40px 30px 30px 30px;
+	font-family: "verdana";
+	text-align: justify;
+	 display: block;
+}
+
+.signature_ab {
+	font-family: "Helvetica", "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+	color: #5c0d09;
+	text-align: right;
+	width: 400px;
+	margin-top: 25px;
+	margin-left: 100px;
+	margin-right: 40px;
+
+}
 
 
 
