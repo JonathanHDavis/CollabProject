@@ -1,5 +1,5 @@
 
-/*css1*/
+/*style1*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -128,14 +128,14 @@ li	{
 	padding-right: 50px;
 }
 
-	a.navBar	{
+	.navBar a	{
 	font-family: "Helvetica", "sans-serfif";
 	font-size: 16px;
 	color: white;
 	text-decoration: none;
 }
 
-a:hover.navBar	{
+.navBar	a:hover {
 	color: #d44601;
 	text-decoration: none;
 }
